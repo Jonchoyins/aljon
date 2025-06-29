@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aljon L. Flagtiosa Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #333;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    .login {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    .login input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contact i {
+      margin-right: 10px;
+    }
+
+    .family-tree ul {
+      list-style: none;
+    }
+
+    .family-tree li {
+      margin: 10px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .achievements img {
+      margin-top: 10px;
+      max-width: 100%;
+      border: 2px solid #333;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aljon L. Flagtiosa</h1>
+    <p>IT Student at Asian College</p>
+    <img class="profileP" src="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/123.jpg"/>
+  </header>
+
+<section class="login">
+  <h2>Login for Validation</h2>
+  <form onsubmit="return validateLogin();">
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <input type="submit" value="Login" />
+  </form>
+  <p id="login-message" style="margin-top: 10px; padding: 10px; border-radius: 5px; display: none;"></p>
+</section>
+
+  <section class="info">
+    <h2>Student Information</h2>
+    <p><strong>Name:</strong> Aljon L. Flagtiosa</p>
+    <p><strong>Course:</strong> Diploma Information Technology</p>
+    <p><strong>School:</strong> Asian College, Dumaguete City</p>
+  </section>
+ <section class="family-tree">
+  <h2>Family Background</h2>
+  <ul>
+    <li>
+      👨 Father: Allan Flagtiosa <br>
+      <img src="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/511325044_1855928311618921_5333856437502645131_n.jpg" alt="Allan Flagtiosa" style="max-width: 200px; height: auto; border-radius: 10px; margin-top: 10px;">
+    </li>
+    <li>👩 Mother: Liza Flagtiosa</li>
+    <img src="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/508507023_2272771759850322_274415484452014296_n.jpg" alt="Liza Flagtiosa" style="max-width: 200px; height: auto; border-radius: 10px; margin-top: 10px;">
+    <li>👦 Siblings: Avril Dawn Flagtiosa, Athena Flagtiosa</li>
+     <img src="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/510340461_759777099722551_7289222632080012711_n.jpg" alt="Avril Dawn , Athena" style="max-width: 200px; height: auto; border-radius: 10px; margin-top: 10px;">
+  </ul>
+</section>
+
+
+
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p>📱 09999684394</p>
+    <p>📧 flagtiosa.aljon04@gmail.com</p>
+  </section>
+
+  <section class="education">
+    <h2>Educational Background</h2>
+    <ul>
+      <li>🏫 Liloan Elementary School (2009-2015)</li>
+      <li>🏫 Santander National High School (2015-2021)</li>
+      <li>🏫 Asian College (2023-2025) – 2nd Year in DIT</li>
+    </ul>
+  </section>
+
+
+ <section class="achievements">
+  <h2>Achievements / Certifications</h2>
+<div class="Certifications-embed text-center">
+  <img src="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/Screenshot%202025-06-29%20101500.png" alt="Certifications Preview" style="max-width: 100%; height: auto;">
+  <p>
+    <a href="https://uploads.onecompiler.io/43p5vh3uj/43p64cs5p/Screenshot%202025-06-29%20101500.png" download class="btn btn-primary mt-3">
+      Download Certification Image
+    </a>
+  </p>
+</div>
+
+</section>
+
+</body>
+</html>
